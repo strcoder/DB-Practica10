@@ -1,0 +1,22 @@
+{
+  "name": "escuela",
+  "version": "0.0.1",
+  "description": "Practica de BD para insertar en MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "start": "node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@strcoder <aguzmanv09@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
